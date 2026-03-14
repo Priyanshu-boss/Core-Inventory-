@@ -75,8 +75,12 @@ npm install
 
 ### 4. Run the Frontend (Client)
 
-Open a new terminal and run:
+Open a new terminal and run: 
 
+cd server
+npm run dev
+
+now open a new terminal and run:
 
 cd client
 npm run dev
