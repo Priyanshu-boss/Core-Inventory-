@@ -69,9 +69,7 @@ cd Core-Inventory-
 
 Install all required packages:
 
-npm install
-
-
+npm install @emailjs/browser(in vs code terminal)
 
 ### 4. Run the Frontend (Client)
 
