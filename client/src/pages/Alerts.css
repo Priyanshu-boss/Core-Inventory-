@@ -1,0 +1,125 @@
+.alerts-empty {
+  text-align: center;
+  padding: var(--space-12) var(--space-8);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  opacity: 0;
+}
+
+.alerts-empty__icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: var(--space-4);
+}
+
+.alerts-empty h2 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-2);
+  color: var(--color-success);
+}
+
+.alerts-empty p {
+  color: var(--color-text-secondary);
+}
+
+.alerts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-5);
+}
+
+.alert-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  opacity: 0;
+  transition: all var(--transition-base);
+}
+
+.alert-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.alert-card--critical {
+  border-color: rgba(239, 68, 68, 0.3);
+  background: linear-gradient(135deg, var(--color-bg-card), var(--color-danger-dim));
+}
+
+.alert-card--warning {
+  border-color: rgba(245, 158, 11, 0.3);
+  background: linear-gradient(135deg, var(--color-bg-card), var(--color-warning-dim));
+}
+
+.alert-card--low {
+  border-color: rgba(59, 130, 246, 0.3);
+  background: linear-gradient(135deg, var(--color-bg-card), var(--color-info-dim));
+}
+
+.alert-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-3);
+}
+
+.alert-card__sku {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+  font-family: monospace;
+}
+
+.alert-card__name {
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+}
+
+.alert-card__message {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-5);
+}
+
+.alert-card__bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.alert-card__bar-track {
+  flex: 1;
+  height: 6px;
+  background: var(--color-bg-tertiary);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.alert-card__bar-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width var(--transition-slow);
+}
+
+.alert-card--critical .alert-card__bar-fill {
+  background: var(--color-danger);
+  box-shadow: 0 0 8px var(--color-danger);
+}
+
+.alert-card--warning .alert-card__bar-fill {
+  background: var(--color-warning);
+  box-shadow: 0 0 8px var(--color-warning);
+}
+
+.alert-card--low .alert-card__bar-fill {
+  background: var(--color-info);
+}
+
+.alert-card__bar-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+  white-space: nowrap;
+  font-weight: 600;
+}

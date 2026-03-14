@@ -1,0 +1,28 @@
+/* ============================================================
+   App Layout
+   ============================================================ */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  min-height: 100vh;
+  transition: margin-left var(--transition-base);
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.03), transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(34, 211, 238, 0.03), transparent 40%),
+    var(--color-bg-primary);
+}
+
+.app-main--collapsed {
+  margin-left: var(--sidebar-collapsed-width);
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    margin-left: 0;
+  }
+}
