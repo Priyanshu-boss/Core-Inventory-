@@ -1,16 +1,70 @@
-# React + Vite
+## ⚙️ Tech Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using modern web technologies.
 
-Currently, two official plugins are available:
+### Frontend
+- React
+- Vite
+- JavaScript
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Backend
+- Node.js
+- Express.js
 
-## React Compiler
+### Database
+- MongoDB / MySQL (whichever you used)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚡ React + Vite Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project uses **React with Vite** for fast development and optimized builds.
+
+Features included:
+
+- Fast development server
+- Hot Module Replacement (HMR)
+- ESLint configuration
+- Optimized production build
+
+Official plugins used:
+
+- `@vitejs/plugin-react`
+- `@vitejs/plugin-react-swc`
+
+For production applications, TypeScript support and additional linting rules can be added if required.
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/coreinventory.git
+```
+
+Navigate to project folder
+
+```bash
+cd coreinventory
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
