@@ -35,3 +35,66 @@ Priyanshu & Parth – Backend Developer (Logic & API Routing)
 Jenish – UI/Frontend Developer (Interface & User Experience)
 
 Priyanshu – UI/Frontend Developer (Interface & Styling)
+
+## 🛠️ Setup & Installation Guide
+
+Follow these steps to set up and run the project locally.
+
+### 1. Install Recommended VS Code Extensions
+
+For better development experience, install the following extensions in VS Code:
+
+- ESLint
+- Prettier – Code Formatter
+- DotENV (.env) Support
+- SQLite Viewer
+- Tailwind CSS IntelliSense
+
+These extensions help with code formatting, linting, environment variable support, database viewing, and Tailwind CSS autocompletion.
+
+
+
+### 2. Clone the Repository
+
+
+git clone <repository-url>
+
+
+Navigate into the project folder:
+
+
+cd coreinventory
+
+### 3. Install Dependencies
+
+Install all required packages:
+
+npm install
+
+
+
+### 4. Run the Frontend (Client)
+
+Open a new terminal and run:
+
+
+cd client
+npm run dev
+
+
+### 5. Start the Application
+
+After running the command above, Vite will start the development server.
+
+You can open the application in your browser at:
+
+
+http://localhost:5173
+
+### 6. Environment Variables
+
+Make sure the `.env` file is properly configured before running the project.  
+This file stores important environment variables such as database configuration and API settings.
+
+
+✅ The application should now be running locally in development mode.
