@@ -227,13 +227,6 @@ Stock: -3
 
 All these operations are recorded in the **stock ledger**.
 
----
-
-# 📐 Mockup / Design
-
-Project mockup created using Excalidraw:
-
-https://link.excalidraw.com/l/65VNwvy7c4X/3ENvQFu9o8R
 
 ---
 
