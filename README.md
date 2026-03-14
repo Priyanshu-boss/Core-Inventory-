@@ -57,13 +57,13 @@ These extensions help with code formatting, linting, environment variable suppor
 ### 2. Clone the Repository
 
 
-git clone <repository-url>
+git clone https://github.com/Priyanshu-boss/Core-inventory-.git
 
 
 Navigate into the project folder:
 
 
-cd coreinventory
+cd Core-Inventory-
 
 ### 3. Install Dependencies
 
